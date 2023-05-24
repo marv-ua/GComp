@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{a1e7ba36-2e17-4e89-b717-dca6b5fee047}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{9f6eef02-6164-4bbe-90e0-2b06a8a8bf61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MMS">
+      <UniqueIdentifier>{a57a3ee8-307f-4405-9a5f-d968b2ffd13b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialogs">
+      <UniqueIdentifier>{b4682a79-c4b1-4533-89cc-7d4495bf5182}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UserInterfaces">
+      <UniqueIdentifier>{fed6ef47-b03c-4a05-b415-4365ef7235c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UserRights">
+      <UniqueIdentifier>{2a629fc9-6d8e-4d55-8f1e-7108c0d086ac}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GComp.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CommonFunctions.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Lexer.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Storage.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\StreamInfo.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Strings.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Container.cpp">
+      <Filter>MMS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FileParser.cpp">
+      <Filter>MMS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MMS.cpp">
+      <Filter>MMS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MMS_Assemble.cpp">
+      <Filter>MMS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MMS_Basic.cpp">
+      <Filter>MMS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MMS_BasicTypes.cpp">
+      <Filter>MMS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MMS_Buh.cpp">
+      <Filter>MMS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MMS_Calculation.cpp">
+      <Filter>MMS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MMS_Compile.cpp">
+      <Filter>MMS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MMS_Decompile.cpp">
+      <Filter>MMS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MMS_Document.cpp">
+      <Filter>MMS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MMS_Filter.cpp">
+      <Filter>MMS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MMS_Parser.cpp">
+      <Filter>MMS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MMS_Subconto.cpp">
+      <Filter>MMS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NameTable.cpp">
+      <Filter>MMS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Ordering.cpp">
+      <Filter>MMS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PictureGallery.cpp">
+      <Filter>MMS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DialogForm.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DlgForm_Tables.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI.CPP">
+      <Filter>UserInterfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI_Compile.cpp">
+      <Filter>UserInterfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Rights.cpp">
+      <Filter>UserRights</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Rights_Compile.cpp">
+      <Filter>UserRights</Filter>
+    </ClCompile>
+    <ClCompile Include="..\1CVS_Tables.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GComp.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonFunctions.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Declarations.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Lexer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Storage.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StreamInfo.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Strings.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Container.h">
+      <Filter>MMS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MMS.h">
+      <Filter>MMS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MMS_Basic.h">
+      <Filter>MMS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MMS_BasicTypes.h">
+      <Filter>MMS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MMS_Buh.h">
+      <Filter>MMS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MMS_Calculation.h">
+      <Filter>MMS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MMS_Document.h">
+      <Filter>MMS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MMS_Filter.h">
+      <Filter>MMS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MMS_Subconto.h">
+      <Filter>MMS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NameTable.h">
+      <Filter>MMS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Ordering.h">
+      <Filter>MMS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DialogForm.h">
+      <Filter>Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UI.H">
+      <Filter>UserInterfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Rights.h">
+      <Filter>UserRights</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GComp.rc">
+      <Filter>Main</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
